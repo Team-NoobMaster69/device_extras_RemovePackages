@@ -5,28 +5,17 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-    SoundAmplifierPrebuilt \
-    ScribePrebuilt \
-    GoogleCamera \
-    YouTube \
-    GooglePrintRecommendationService \
-    arcore \
-    LocationHistoryPrebuilt \
-    TagGoogle \
-    Music \
-    Panic \
-    DevCamera \
+    AndroidAutoStubPrebuilt \
     Camera2 \
-    arcore \
-    RecorderPrebuilt \
-    WellbeingPrebuilt \
-    GoogleTTS \
-    Talkback \
+    DevCamera \
     Drive \
-    PlayAutoInstallConfig \
+    GooglePrintRecommendationService \
+    GoogleTTS \
     PrebuiltGmail \
-    PrebuiltBugle \
-    AndroidAutoStubPrebuilt
+    Photos \
+    Talkback \
+    WellbeingPrebuilt \
+    Youtube
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
